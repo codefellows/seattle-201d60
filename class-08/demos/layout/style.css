@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  border: 2px solid red;
+  width: 12.5%;
+  height: 12.5%;
+  text-align: center;
+  margin: 0;
+}
+
+.boxes {
+  width: 80%;
+  height: 90vh;
+  outline: 2px solid green;
+  margin: 0 auto;
+}
