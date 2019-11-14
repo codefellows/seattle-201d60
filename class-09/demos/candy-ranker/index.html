@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Candy Ranker</title>
+</head>
+<body>
+
+  <h1>Candy Ranker</h1>
+
+  <form id="candy-form">
+    <fieldset>
+      <legend>Candy Ranker</legend>
+    <label>
+      Name
+      <input name="candyName" type="text" />
+    </label>
+    <label>
+      Rank
+      <input name="candyRank" type="number" />
+    </label>
+  </fieldset>
+    <button>Submit</button>
+  </form>
+
+
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Rank</th>
+      </tr>
+    </thead>
+    <tbody id="candy-entries">
+      <!-- candy entries -->
+    </tbody>
+    <tfoot>
+      <tr>
+        <th>
+          Candy Count:
+        </th>
+        <td id="candy-count"><!-- count goes here --></td>
+      </tr>
+    </tfoot>
+  </table>
+  
+  <script src="app.js" />
+</body>
+</html>
