@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 900px;
+  margin: 0 auto;
+  font-family: Oswald;
+  color: #595959;
+}
+
+h1 {
+  color: #525252;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+hr {
+  border:0px;
+  height:10px;
+  background-image:url('../images/hr-img.png');
+  background-repeat: repeat-x;
+}
+
+/* header - nav */
+header {
+  height: 85px;
+}
+
+header h3 {
+  font-family: 'Yellowtail';
+  font-size: 2em;
+}
+
+header strong {
+  text-transform: uppercase;
+  font-size: .75em;
+}
+
+header img {
+  float: left;
+  margin-right: 1em;
+}
+
+nav {
+  position: relative;
+  top: -2em;
+}
+
+nav img {
+  float: right;
+  margin-right: .25em;
+}
+
+nav ul li:nth-child(3) img {
+  margin-right: 1em;
+}
+
+/* instructions */
+#instructions p {
+  text-indent: 2em;
+  font-family: 'Serif';
+  font-size: 1.25em;
+  margin: 1em 0 ;
+}
+
+
+/* ingredients */
+#ingredients img {
+  position: absolute;
+  z-index: -1;
+}
+
+#ingredients {
+  height: 289px;
+}
+
+#ingredients ul {
+  column-count: 2;
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 1.6em;
+  padding: .5em 1.5em;
+}
+
+#ingredients li {
+  margin-bottom: .5em;
+}
+
+
+/* bio */
+#bio {
+  padding-top: 1.5em;
+  font-family: Serif;
+}
+
+#bio h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: .5em;
+}
+
+#bio figure {
+  float: left;
+  margin-right: 1em;
+}
+
+#bio div {
+  width: calc(100% - 75px - 150px);
+}
+
+#bio a {
+  width: 150px;
+  line-height: 50px;
+  color: #fff;
+  background-color: #ba6f57;
+  float: right;
+  text-align: center;
+  font-family: Oswald;
+  position: relative;
+  top: -4em;
+}
+
+/* footer */
+footer {
+  margin-top: 5em;
+  text-align: center;
+  position: relative;
+  color: #ccc;
+  font-family: Serif;
+}
+
+footer img {
+  margin: 0 2em;
+  position: relative;
+  top: -3em;
+  border-left: 1em solid white;
+  border-right: 1em solid white;
+}
+
+footer hr {
+  margin: 2em 0;
+  height: initial;
+  border-width: 1px;
+  border-style: inset;
+  background-image: none;
+}
