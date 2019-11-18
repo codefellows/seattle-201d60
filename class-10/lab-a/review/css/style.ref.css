@@ -130,8 +130,9 @@ footer {
 }
 
 footer img {
+  margin: 0 2em;
   position: relative;
-  bottom: 3em;
+  top: -3em;
   border-left: 1em solid white;
   border-right: 1em solid white;
 }
